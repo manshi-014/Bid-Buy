@@ -31,7 +31,7 @@ const SignUp =() =>{
           <Form.Control
             type="name"
             id="Fname"
-            onChange={(e) => setemail(e.target.value)}
+            onChange={(e) => setname(e.target.value)}
             value={Name}
           />
         </Form.Group>
