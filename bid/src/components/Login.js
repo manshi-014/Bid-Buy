@@ -28,8 +28,8 @@ const Login =() =>{
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email</Form.Label>
           <Form.Control
-            type="number"
-            id="Fname"
+            type="email"
+            id="email"
             onChange={(e) => setemail(e.target.value)}
             value={email}
           />
