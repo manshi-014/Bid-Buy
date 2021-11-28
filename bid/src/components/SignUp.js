@@ -57,6 +57,7 @@ const SignUp = () => {
             type="text"
             id="Fname"
             onChange={(e) => setname(e.target.value)}
+<<<<<<< HEAD
             value={FName}
           />
         </Form.Group>
@@ -76,6 +77,9 @@ const SignUp = () => {
             id="date"
             onChange={(e) => setdob(e.target.value)}
             value={dob}
+=======
+            value={Name}
+>>>>>>> refs/remotes/origin/main
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
