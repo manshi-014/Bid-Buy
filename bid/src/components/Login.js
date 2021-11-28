@@ -54,17 +54,10 @@ const Login = () => {
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Username</Form.Label>
           <Form.Control
-<<<<<<< HEAD
             type="username"
             id="username"
             onChange={(e) => setUsername(e.target.value)}
             value={Username}
-=======
-            type="email"
-            id="email"
-            onChange={(e) => setemail(e.target.value)}
-            value={email}
->>>>>>> refs/remotes/origin/main
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicPassword">
