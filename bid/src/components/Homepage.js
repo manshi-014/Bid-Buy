@@ -2,11 +2,16 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Login from "./Login";
 import { useHistory, Route } from "react-router-dom";
+import Slider from "./slider";
+import Header from "./Header";
+
 
 const Homepage = () => {
   let history = useHistory();
   return (
     <div>
+      <Slider />
+      <Header />
       <div className="main">
         <div className="content">
           <div className="container-fluid">

@@ -3,9 +3,9 @@
   margin: 20px;
   background-color: rgb(0, 9, 128);
   color: white;
-  padding: 10px;
+  padding: 2px;
   border-radius: 30px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .left-div{
@@ -16,7 +16,6 @@
   background-size: cover;
   overflow: hidden;
   min-height: 380px;
-  
 }
 .left-div{
   text-align: center;

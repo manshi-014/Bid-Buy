@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import SignUp from "./SignUp";
+import Slider from "./slider";
+import Header from "./Header";
 
 const SignUpPage = () => {
  
 
   return (
     <div className="Signup">
+      <Slider />
+      <Header />
        <div>
       <div className="main">
         <div className="content">
